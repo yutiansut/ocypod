@@ -1,0 +1,13 @@
+[server]
+host = "0.0.0.0"
+port = 8023
+threads = 6
+max_body_size = "10MiB"
+timeout_check_interval = "1m"
+retry_check_interval = "30s"
+expiry_check_interval = "1m"
+next_job_delay = "5s"
+
+[redis]
+url = "redis://127.0.0.1:6379"
+threads = 1
